@@ -1,0 +1,20 @@
+/* ======================================================
+   DESIGN TOKENS – ARIE'S ACCESSOIRE
+   Source unique de vérité pour toutes les valeurs de design
+   (couleurs, textes, glass, easing). À réutiliser partout,
+   ne jamais dupliquer/coder en dur ces valeurs ailleurs.
+   ====================================================== */
+:root {
+  --rose-primary: #e7a1b0;
+  --rose-soft: rgba(231, 161, 176, 0.18);
+  --rose-glow: rgba(231, 161, 176, 0.45);
+
+  --dark-text: #1f1f1f;
+  --light-text: #ffffff;
+  --muted-text: rgba(255, 255, 255, 0.7);
+
+  --glass-bg: rgba(255, 255, 255, 0.08);
+  --border-glass: rgba(255, 255, 255, 0.18);
+
+  --ease-premium: cubic-bezier(.4,0,.2,1);
+}
